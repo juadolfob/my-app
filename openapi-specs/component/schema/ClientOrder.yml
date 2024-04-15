@@ -1,0 +1,15 @@
+type: object
+required:
+  - clientId
+  - quantity
+  - orderTotal
+  - propertyType
+properties:
+  clientId:
+    type: integer
+    format: int64
+  quantity:
+    type: integer
+  orderTotal:
+    type: number
+    format: float

@@ -1,0 +1,13 @@
+type: object
+required:
+  - fullName
+  - phoneNumber
+  - state
+  - propertyType
+properties:
+  fullName:
+    type: string
+  phoneNumber:
+    type: string
+  state:
+    type: string
